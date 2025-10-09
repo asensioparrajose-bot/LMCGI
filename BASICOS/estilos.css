@@ -1,0 +1,57 @@
+/* es  un selector
+    nombre_del_selector {
+    propiedad1: valor;
+    propiedad2: valor;
+    propiedad3: valor;
+    ...
+    propiedadN: valor;
+    }
+    
+    
+    */
+
+    /* h1: es un selector  css de etiqueta */
+h1 { 
+    /* propiedades css de la fuete/letra */
+    color:blue; /* color */
+    font-weight: lighter; /* negrita */
+    font-size: 30px; /* tamaño */
+    font-style: italic; /* estilo */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps; /* versalitas */
+    text-decoration: overline; /* subrayado */
+    text-transform: lowercase; /* mayuscullas */
+    letter-spacing: 1px; /* espacio entre letras */
+    word-spacing: 10px; /* */
+    /* propiedades css del párrafo */
+    text-align: center; /* parrafo */
+}
+
+p{
+    text-align: justify;
+    line-height: 1.3; /* interlineado */
+    text-indent: 20px;
+    
+    margin: 20px 10px 50px 20px 30px;
+
+    margin-left: 10px;
+
+    margin-right: 50px;
+
+    margin-top: 20px;
+
+    margin-bottom: 30px;
+
+    border: 2px solid rgb(red, green, blue);
+
+    padding: 10px;
+    border-radius: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    background-color: rgba(red, green, blue, 1);
+    color: white;
+
+
+
+}
